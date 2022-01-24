@@ -264,7 +264,7 @@ textarea {
 /*--------Base styles -------*/
 
 .content-wrapper {
-  width: 100%;
+  width: 90%;
 }
 
 /*--------Base Header - Footer styles -------*/
@@ -289,6 +289,8 @@ header .content-wrapper {
 
 .header-divider {
   width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -368,16 +370,16 @@ aside {
 
   /* Features design styles */
 
-.features h2 {
-    margin: 35px 0 35px 20px; 
-    width:85%;
-  }
-
 .features {
   display: flex;
   justify-content: center;
   align-items: center;  /*DIFFICUL TO SEE WHEN WE NEED THIS PROPERTY OR NOT??*/
   flex-flow: row wrap
+}
+
+.features h2 {
+  margin: 35px 0 35px 20px; 
+  width:85%;
 }
 
 .features .features-items {
@@ -402,12 +404,15 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  width: 85%;
   margin-left: 20px;
 }
 
 .reviews h2 {
   width: 85%;
+}
+
+.reviews h4 {
+  width: 50%;
 }
 
 /*---------Mobile styles About Page --------*/
@@ -416,7 +421,8 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap
+  flex-flow: row wrap;
+  width: 95%;
 }
 
 .mission h1, .contact-section h2{
@@ -440,7 +446,8 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap
+  flex-flow: row wrap;
+  width: 95%;
 }
 
 .faq .content-wrapper {
@@ -448,4 +455,16 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap
+}
+
+.faq h1{
+  margin: 35px 0 15px 20px; 
+}
+
+.faq h4 {
+  margin: 10px 0 0 20px; 
+}
+
+.faq p {
+  margin: 10px 0 30px 20px; 
 }
