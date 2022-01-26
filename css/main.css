@@ -87,7 +87,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*--------Base styles -------*/
+/*--------General styles -------*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans, sans-serif';
+  font-size: 1em;
+
+}
+
+
+ul, ol {
+
+}
+
+a {
+
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+}
+
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+  font-size: 1.875em;
+}
+
+h3 {
+
+}
+
+p {
+  font-size: 1.125em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+
+}
+
+.content-wrapper {
+
+}
+
+
+
+
+
+
+   /*--------Base styles -------*/
 
 .content-wrapper {
   width: 90%;
@@ -478,11 +541,12 @@ footer .copyright {
   width: 45%;
 }
 
+
+/*-------Contact content styles Aboutpage-------*/
+
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
-
-/*-------Contact content styles Aboutpage-------*/
 
 .contact-content {
   display:flex;
