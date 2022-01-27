@@ -241,6 +241,18 @@ footer .copyright {
   font-weight:normal;
 }
 
+footer .social-icons i {
+  border-radius: 30px;
+  width: 2.25em;
+  height: 2.25em;
+  background:#527158;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  
+}
+
 /*-------- Mobile styles Home Page --------*/
 
 .hero-area {
@@ -581,6 +593,12 @@ footer .copyright {
   justify-content: center;
   display: flex;
 }
+
+footer .social-icons i {
+  margin: 0 10px;
+}
+
+
 
 
   /*--------Aside styles Homepage -------*/
