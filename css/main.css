@@ -314,6 +314,11 @@ input[type=button] {
   flex-flow: row wrap
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   margin: 0;
 }
@@ -605,6 +610,10 @@ footer .copyright {
 
 .features .features-item-description {
   width: 62%;
+}
+
+.features i {
+  font-size: 4.5em;
 }
 
 /*--------Review content styles Homepage-------*/
