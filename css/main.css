@@ -139,16 +139,16 @@ address {
 
 .content-wrapper {
   width: 90%;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 /*--------Base Header - Footer styles -------*/
@@ -170,6 +170,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin-top: 0px;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header {
@@ -197,6 +205,7 @@ header nav ul {
   display: flex;
   justify-content:space-around;
   width: 100%;
+  padding: 0;
 }
 
 /*--------Footer styles -------*/
@@ -238,7 +247,8 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;   
-  background-color: aqua;
+  background: url('../img/background-cover-image.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 
@@ -289,7 +299,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: aqua;
+  background: url('../img/features-background-image.jpg') center no-repeat #333;
+  background-size: cover;
+}
 }
 
 .features h2 {
@@ -323,13 +335,13 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   line-height: 1;
 }
 
 .reviews h3 {
   width: 55%;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 
@@ -517,6 +529,12 @@ header {
   
 }
 
+header figure {
+  width: 30%;
+  display: flex;
+  justify-content: center; 
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: space-between;
@@ -695,6 +713,15 @@ footer .copyright {
     margin: 100px 0;
   }
 
+  /*-----Header styles-*/ 
+  
+  header figure {
+    width: 25%;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  
   /*----FOOTER styles-------*/
 
 footer .content-wrapper {
