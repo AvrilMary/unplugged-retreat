@@ -302,7 +302,6 @@ input[type=button] {
   background: url('../img/features-background-image.jpg') center no-repeat #333;
   background-size: cover;
 }
-}
 
 .features h2 {
   margin-bottom: 40px;
@@ -341,7 +340,7 @@ input[type=button] {
 
 .reviews h3 {
   width: 55%;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 
@@ -605,17 +604,32 @@ footer .copyright {
   display: flex;
   flex-flow: row wrap;
   width: 55%;
+  margin-left: 20px;
 }
 
 .review-content {
   display: flex;
-  justify-content: space-around;
   flex-flow: row wrap;
-  align-items: flex-start;
 }
 
-.review h2 {
-  line-height: 0pt;
+.reviews h2 {
+  line-height: 1;
+  width: 55%;
+}
+
+.reviews h3 {
+  width: 70%;
+  margin: 0px 0;
+}
+
+.reviews figure {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.reviews p {
+  margin: 0px 0;
 }
 
 /*--------Mission content styles Aboutpage-------*/
@@ -776,13 +790,17 @@ aside .content-wrapper .form-description ,
 
 .review-content {
   display: flex;
-  justify-content: space-around;
   flex-flow: row wrap;
-  align-items: flex-start;
 }
 
 .review h2 {
   line-height: 0pt;
+}
+
+.reviews figure {
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 
 /*----Styles ABOUT PAGE-------*/
