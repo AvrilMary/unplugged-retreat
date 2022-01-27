@@ -113,13 +113,13 @@ a {
 h1 {
   font-size: 2.25em;
   font-family: 'Poppins', sans-serif;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-family: 1.875em;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 h3, h4 {
@@ -130,16 +130,7 @@ h3, h4 {
 
 p {
   font-size: 0.875em;
-  font-weight: normal;
-  line-height: 18pt;
-}
-
-img {
-
-}
-
-figure {
-
+  line-height: 1.285;
 }
 
 address {
@@ -147,14 +138,17 @@ address {
 }
 
 .content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+
+img {
 
 }
 
-   /*--------Base styles -------*/
+figure {
 
-.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
 }
 
 /*--------Base Header - Footer styles -------*/
@@ -180,9 +174,6 @@ header .content-wrapper {
 
 header {
 padding: 15px 0 0 0;
-font-weight: bold;
-font-size: 1.125em;
-font-family: 'Open Sans';
 }
 
 header .header-divider {
@@ -198,6 +189,8 @@ header nav {
   align-items: center;
   flex-flow: row wrap; /* IS THIS TO ENSURE THAT THE NAV BAR ENDS UP BELOW THE LOGO?? */
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
 }
 
 header nav ul {
@@ -331,7 +324,7 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
-  line-height: 30pt;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -385,6 +378,16 @@ input[type=button] {
 .faq-content {
   margin-bottom: 50px;
 }
+
+.faq h2 {
+  line-height: 1;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -481,17 +484,17 @@ input[type=button] {
   
   h1 {
     font-size: 3em;
-    line-height: 48pt;
+    line-height: 1;
   }
 
   h2 {
     font-size: 2.25em;
-    line-height: 48pt;
+    line-height: 1.33;
   }
 
   h3 {
     font-size: 1.5em;
-    line-height: 30pt;
+    line-height: 1.25;
   }
 
   h4 {
@@ -655,6 +658,12 @@ footer .copyright {
   width: 100%;
 }
 
+.faq h4,
+  .faq p {
+      font-size: .875em;
+      line-height: 1.125;
+  }
+
 }
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
@@ -675,7 +684,8 @@ footer .copyright {
   }
   
   p {
-    line-height: 24pt;
+    font-size: 1.125em;
+    line-height: 1.3333;
   }
   
   /*-----Base styles-*/  
@@ -689,6 +699,11 @@ footer .copyright {
 
 footer .content-wrapper {
   max-width: 800px;
+}
+
+
+footer h4 {
+  font-size: 1.875em;
 }
 
     /*-----Aside styles HOMEPAGE--------*/
@@ -706,6 +721,10 @@ aside .content-wrapper .form-description ,
   flex-flow: column wrap;
   justify-content: space-between;
   margin: 0;
+}
+
+.form-description p {
+  font-size: 1.125em;
 }
 
     /*----Feature styles HOMEPAGE-------*/
@@ -739,11 +758,31 @@ aside .content-wrapper .form-description ,
   line-height: 0pt;
 }
 
-/*----Contact styles ABOUT PAGE-------*/
+/*----Styles ABOUT PAGE-------*/
 
 .general-information, .contact-support {
   width: 33%;
 }
+
+
+.mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 95%;
+      font-size: 3em;
+  }
+
+  .contact-content h4 {
+    font-size: 1.875em;
+  }
+
+  /*----Styles FAQ PAGE-------*/
+
+  .faq h4,
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1.125;
+  }
+
 
 }
 
