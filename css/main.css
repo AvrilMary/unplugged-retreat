@@ -118,14 +118,16 @@ h1 {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-family: 1.875em;
+  font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3, h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
-  font-weight: normal;
+  font-weight: 500;
+  margin: 5px 0;
 }
 
 p {
@@ -139,7 +141,7 @@ address {
 
 .content-wrapper {
   width: 90%;
-  margin: 20px 0;
+  margin: 25px 0;
 }
 
 
@@ -169,7 +171,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin-top: 0px;
+  margin: 0px 0;
 }
 
 header figure {
@@ -181,13 +183,12 @@ header figure {
 }
 
 header {
-padding: 15px 0 0 0;
+padding: 15px 0;
 }
 
 header .header-divider {
   width: 100%;
-  height: 10px;
-  margin: 10px 0 20px 0;
+  height: 1px;
   color: #e2e3ed;
 }
 
@@ -232,12 +233,12 @@ footer .social-icons p {
   align-items: center;
 }
 
-footer p {
-  margin: 0;
+footer .contact p {
+  margin-bottom: 35px;
 }
 
-footer .copyright {
-  margin: 20px 0;
+footer .copyright p{
+  margin: 15px 0;
   font-weight:normal;
 }
 
@@ -249,7 +250,6 @@ footer .social-icons i {
   align-items: center;
   justify-content: center;
   display: flex;
-
   
 }
 
@@ -261,8 +261,12 @@ footer .social-icons i {
   flex-flow: row wrap;   
   background: url('../img/background-cover-image.jpg') center no-repeat #333;
   background-size: cover;
+  min-height: 500px;
 }
 
+.hero-area h1 {
+  margin: 0;
+}
 
   /* Sign up form designs */
 aside {
@@ -317,6 +321,7 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 40px;
+  width: 100%;
 }
 
 .features .features-items {
@@ -332,11 +337,11 @@ input[type=button] {
 }
 
 .features p {
-  margin: 0;
+  margin: 0px 0;
 }
 
 .features article {
-  width: 63%;
+  width: 60%;
   text-align: center;
   margin: 30px 0;
 }
@@ -357,7 +362,7 @@ input[type=button] {
 
 .reviews h3 {
   width: 55%;
-  margin: 10px 0;
+  margin: 15px 0 10px 0;
 }
 
 
@@ -412,12 +417,13 @@ input[type=button] {
   flex-flow: row wrap
 }
 
-.faq-content {
-  margin-bottom: 50px;
+.faq-content p {
+  margin-bottom: 40px;
 }
 
 .faq h2 {
   line-height: 1;
+  margin-bottom: 40px;
 }
 
 .faq-content h4 {
@@ -527,6 +533,7 @@ input[type=button] {
   h2 {
     font-size: 2.25em;
     line-height: 1.33;
+    margin-bottom: 15px;
   }
 
   h3 {
@@ -543,7 +550,7 @@ input[type=button] {
 
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    margin: 75px 0;
   }
  
 
@@ -585,17 +592,22 @@ footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 15px 0;
 }
 
 footer .copyright {
-  margin: 70px 0 20px 0;
   width: 100%;
+  margin-bottom: 10px;
   justify-content: center;
   display: flex;
 }
 
 footer .social-icons i {
   margin: 0 10px;
+}
+
+footer h4 {
+  padding-bottom: 15px;
 }
 
 
@@ -615,6 +627,14 @@ footer .social-icons i {
   width: 40%;
   margin: 0;
 }
+
+
+/*--------Hero Area styles Homepage-------*/
+
+.hero-area {
+  min-height: 590px;
+}
+
 
 /*--------Feature content styles Homepage-------*/
 
@@ -705,6 +725,7 @@ footer .social-icons i {
 
 .faq .content-wrapper {
   justify-content: space-between;
+  padding: 25px 0;
 }
 
 .faq-content {
@@ -770,6 +791,10 @@ footer .social-icons i {
     display: flex;
     justify-content: center; 
   }
+
+  header nav {
+    width: 12%;
+  }
   
   
   /*----FOOTER styles-------*/
@@ -804,6 +829,16 @@ aside .content-wrapper .form-description ,
   font-size: 1.125em;
 }
 
+input[type=button] {
+  font-size: 1.5em;
+}
+
+/*----Hero Area styles HOMEPAGE-------*/
+
+.hero-area {
+  min-height: 615px;
+}
+
     /*----Feature styles HOMEPAGE-------*/
 
 .features-items {
@@ -829,9 +864,11 @@ aside .content-wrapper .form-description ,
   flex-flow: row wrap;
 }
 
-.review h2 {
-  line-height: 0pt;
-}
+.reviews h2 {
+  line-height: 1;
+  width: 75%;
+  margin-bottom: 80px;
+  }
 
 .reviews figure {
   width: 40%;
@@ -842,13 +879,13 @@ aside .content-wrapper .form-description ,
 /*----Styles ABOUT PAGE-------*/
 
 .general-information, .contact-support {
-  width: 33%;
+  width: 47%;
 }
 
 
 .mission h2,
   .contact-section .content-wrapper h2 {
-      width: 95%;
+      width: 100%;
       font-size: 3em;
   }
 
