@@ -198,7 +198,7 @@ header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-flow: row wrap; /* IS THIS TO ENSURE THAT THE NAV BAR ENDS UP BELOW THE LOGO?? */
+  flex-flow: row wrap; 
   width: 60%;
   font-size: 1.125em;
   font-weight: 700;
@@ -255,7 +255,7 @@ footer .social-icons i {
   
 }
 
-/*-------- Mobile styles Home Page --------*/
+/*-------- Home Page --------*/
 
 .hero-area {
   display: flex;
